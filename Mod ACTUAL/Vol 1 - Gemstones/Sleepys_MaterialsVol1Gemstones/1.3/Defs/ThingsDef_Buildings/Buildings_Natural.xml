@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Gemstones -->
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableDiamond</defName>
+    <label>diamond</label>
+    <description>Rock containing bits of diamond.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Diamond</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableRuby</defName>
+    <label>ruby</label>
+    <description>Rock containing bits of ruby.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Ruby</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableEmerald</defName>
+    <label>emerald</label>
+    <description>Rock containing bits of emerald.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Emerald</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableSapphire</defName>
+    <label>sapphire</label>
+    <description>Rock containing bits of sapphire.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Sapphire</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.06</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+   <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableSpinel</defName>
+    <label>spinel</label>
+    <description>Rock containing bits of spinel.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Spinel</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableTopaz</defName>
+    <label>topaz</label>
+    <description>Rock containing bits of topaz.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Topaz</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.06</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableAlexandrite</defName>
+    <label>alexandrite</label>
+    <description>Rock containing bits of alexandrite.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Alexandrite</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.02</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineablePainite</defName>
+    <label>painite</label>
+    <description>Rock containing bits of painite.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Painite</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.01</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableAquamarine</defName>
+    <label>aquamarine</label>
+    <description>Rock containing bits of aquamarine.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Aquamarine</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableAmethyst</defName>
+    <label>amethyst</label>
+    <description>Rock containing bits of amethyst.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Amethyst</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.06</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableLapisLazuli</defName>
+    <label>lapis lazuli</label>
+    <description>Rock containing bits of lapis lazuli.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_LapisLazuli</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableTurquoise</defName>
+    <label>turquoise</label>
+    <description>Rock containing bits of turquoise.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Turquoise</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.06</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableQuartz</defName>
+    <label>quartz</label>
+    <description>Rock containing bits of quartz.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Quartz</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~6</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableRoseQuartz</defName>
+    <label>rose quartz</label>
+    <description>Rock containing bits of rose quartz.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_RoseQuartz</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~6</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableCitrine</defName>
+    <label>citrine</label>
+    <description>Rock containing bits of citrine.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Citrine</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineablePeridot</defName>
+    <label>peridot</label>
+    <description>Rock containing bits of peridot.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Peridot</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.05</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~3</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableLabradorite</defName>
+    <label>labradorite</label>
+    <description>Rock containing bits of labradorite.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Labradorite</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.06</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~4</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableTanzanite</defName>
+    <label>tanzanite</label>
+    <description>Rock containing bits of tanzanite.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Tanzanite</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableObsidian</defName>
+    <label>obsidian</label>
+    <description>Rock containing bits of obsidian.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(68,83,68)</color>
+      <colorTwo>(30,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Obsidian</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.06</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~3</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+</Defs>

@@ -39,7 +39,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(254,254,254)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -100,7 +100,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(155,17,30)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -161,7 +161,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(1,118,56)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -222,7 +222,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.02</commonality>
+      <commonality>0.002</commonality>
       <color>(6,32,73)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -284,7 +284,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(176,11,52)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -345,7 +345,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.03</commonality>
+      <commonality>0.003</commonality>
       <color>(251,181,51)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -406,7 +406,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.005</commonality>
+      <commonality>0.0005</commonality>
       <color>(81,22,81)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -467,7 +467,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.005</commonality>
+      <commonality>0.0005</commonality>
       <color>(107,73,71)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -528,7 +528,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.02</commonality>
+      <commonality>0.002</commonality>
       <color>(127,255,212)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -589,7 +589,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.03</commonality>
+      <commonality>0.003</commonality>
       <color>(153,102,204)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -650,7 +650,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(21,37,192)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -711,7 +711,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.03</commonality>
+      <commonality>0.003</commonality>
       <color>(48,213,200)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -772,7 +772,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.04</commonality>
+      <commonality>0.004</commonality>
       <color>(223,223,224)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -833,7 +833,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.04</commonality>
+      <commonality>0.004</commonality>
       <color>(247,202,202)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -894,7 +894,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(228,208,10)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -955,7 +955,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.02</commonality>
+      <commonality>0.002</commonality>
       <color>(180,196,36)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1016,7 +1016,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.03</commonality>
+      <commonality>0.003</commonality>
       <color>(90,125,129)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1077,7 +1077,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(66,27,148)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1138,7 +1138,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
-      <commonality>0.035</commonality>
+      <commonality>0.0035</commonality>
       <color>(21,25,27)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1152,66 +1152,6 @@
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
         <Beauty>1</Beauty>
-        <Flammability>0</Flammability>
-        <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
-      </statFactors>
-    </stuffProps>
-	<tradeTags>
-      <li>ExoticMisc</li>
-    </tradeTags>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <allowedArchonexusCount>20</allowedArchonexusCount>
-  </ThingDef>
-  
-  <ThingDef ParentName="ResourceBase">
-    <defName>SLP_Pearl</defName>
-    <label>pearl</label>
-    <description>A pearl is a hard, glistening object produced within the soft tissue (specifically the mantle) of a living shelled mollusk or another animal. Because of its beauty and rarity, pearls are often used for ornaments and decorations.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/SLP_Gemstones_Pearl</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <useHitPoints>false</useHitPoints>
-    <healthAffectsPrice>false</healthAffectsPrice>
-    <soundInteract>ChunkRock_Drop</soundInteract>
-    <soundDrop>ChunkRock_Drop</soundDrop>
-    <statBases>
-      <MarketValue>5.5</MarketValue>
-      <Mass>0.5</Mass>
-      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
-      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
-      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
-      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-	  <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
-    </statBases>
-    <thingCategories>
-      <li>SLP_Gemstones</li>
-    </thingCategories>
-    <deepCommonality>0.2</deepCommonality>
-    <deepCountPerPortion>2</deepCountPerPortion>
-    <deepLumpSizeRange>1~2</deepLumpSizeRange>
-    <burnableByRecipe>false</burnableByRecipe>
-    <smeltable>false</smeltable>
-    <stuffProps>
-      <categories>
-        <li>Stony</li>
-      </categories>
-      <commonality>0.01</commonality>
-      <color>(66,27,148)</color>
-      <constructEffect>ConstructMetal</constructEffect>
-      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
-      <statOffsets>
-        <Beauty>7.6</Beauty>
-      </statOffsets>
-      <statFactors>
-        <MaxHitPoints>0.6</MaxHitPoints>
-        <WorkToMake>1.4</WorkToMake>
-        <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -1249,7 +1189,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.01</commonality>
+      <commonality>0.001</commonality>
       <color>(234,224,200)</color>
       <statOffsets>
         <Beauty>14</Beauty>
