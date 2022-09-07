@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Raw Resources ====================-->
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Tungsten</defName>
+    <label>tungsten</label>
+    <description>An dense, strong and rare metal used for building a huge variety of structures, weapons, and armour.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_MetalRod</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(191,189,180)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>7.6</MarketValue>
+      <Mass>1.0</Mass>
+      <StuffPower_Armor_Sharp>1.1</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.70</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.60</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.2</deepCommonality>
+    <deepCountPerPortion>4</deepCountPerPortion>
+    <deepLumpSizeRange>1-6</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(191,189,180)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>4.0</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Titanium</defName>
+    <label>titanium</label>
+    <description>A hard, shiny and strong metal. Useful for building a huge variety of structures, weapons, and armour.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_MetalRod</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(135,134,129)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>4.8</MarketValue>
+      <Mass>1.0</Mass>
+      <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.8</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.2</deepCommonality>
+    <deepCountPerPortion>4</deepCountPerPortion>
+    <deepLumpSizeRange>1-6</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(135,134,129)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>2.1</MaxHitPoints>
+        <Beauty>1</Beauty>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+  
+  
+</Defs>

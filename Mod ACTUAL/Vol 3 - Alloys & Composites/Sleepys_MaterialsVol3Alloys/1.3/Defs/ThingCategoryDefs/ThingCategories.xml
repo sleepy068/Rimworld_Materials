@@ -2,10 +2,10 @@
 <Defs>
 
     <ThingCategoryDef>
-      <defName>SLP_Gemstones</defName>
-      <label>gemstones</label>
+      <defName>SLP_Alloys</defName>
+      <label>alloys</label>
       <parent>ResourcesRaw</parent>
-      <iconPath>UI/Icons/ThingsCategories/SLP_Gemstones_Icon</iconPath>
+      <iconPath>UI/Icons/ThingsCategories/SLP_Alloys_Icon</iconPath>
       <resourceReadoutRoot>true</resourceReadoutRoot>
     </ThingCategoryDef>
 

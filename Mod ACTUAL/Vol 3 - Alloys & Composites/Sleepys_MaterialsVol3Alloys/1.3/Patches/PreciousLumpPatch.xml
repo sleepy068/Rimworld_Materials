@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/GenStepDef[defName="PreciousLump"]/genStep/mineables</xpath>
+		<value>
+			<li>SLP_MineableDiamond</li>
+			<li>SLP_MineableRuby</li>
+			<li>SLP_MineableEmerald</li>
+			<li>SLP_MineableSapphire</li>
+			<li>SLP_MineableSpinel</li>
+			<li>SLP_MineableTopaz</li>
+			<li>SLP_MineableAlexandrite</li>
+			<li>SLP_MineablePainite</li>
+			<li>SLP_MineableAquamarine</li>
+			<li>SLP_MineableAmethyst</li>
+			<li>SLP_MineableLapisLazuli</li>
+			<li>SLP_MineableTurquoise</li>
+			<li>SLP_MineableQuartz</li>
+			<li>SLP_MineableRoseQuartz</li>
+			<li>SLP_MineableCitrine</li>
+			<li>SLP_MineablePeridot</li>
+			<li>SLP_MineableLabradorite</li>
+			<li>SLP_MineableTanzanite</li>
+			<li>SLP_MineableObsidian</li>
+		</value>
+	</Operation>
+</Patch>

@@ -11,6 +11,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Cutstone</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(254,254,254)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -39,7 +40,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(254,254,254)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -72,6 +73,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(155,17,30)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -100,7 +102,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(155,17,30)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -133,6 +135,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(1,118,56)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -161,7 +164,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(1,118,56)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -194,6 +197,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(6,32,73)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -222,7 +226,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.002</commonality>
+      <commonality>0.02</commonality>
       <color>(6,32,73)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -256,6 +260,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(176,11,52)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -284,7 +289,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(176,11,52)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -317,6 +322,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(251,181,51)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -345,7 +351,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.003</commonality>
+      <commonality>0.03</commonality>
       <color>(251,181,51)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -378,6 +384,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(81,22,81)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -406,7 +413,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.0005</commonality>
+      <commonality>0.005</commonality>
       <color>(81,22,81)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -439,6 +446,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(107,73,71)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -467,7 +475,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.0005</commonality>
+      <commonality>0.005</commonality>
       <color>(107,73,71)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -500,6 +508,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(127,255,212)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -528,7 +537,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.002</commonality>
+      <commonality>0.02</commonality>
       <color>(127,255,212)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -561,6 +570,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(153,102,204)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -589,7 +599,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.003</commonality>
+      <commonality>0.03</commonality>
       <color>(153,102,204)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -622,6 +632,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Mineral</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(21,37,192)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -650,7 +661,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(21,37,192)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -683,6 +694,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Mineral</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(48,213,200)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -711,7 +723,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.003</commonality>
+      <commonality>0.03</commonality>
       <color>(48,213,200)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -744,6 +756,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(223,223,224)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -772,7 +785,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.004</commonality>
+      <commonality>0.04</commonality>
       <color>(223,223,224)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -805,6 +818,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(247,202,202)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -833,7 +847,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.004</commonality>
+      <commonality>0.04</commonality>
       <color>(247,202,202)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -866,6 +880,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(228,208,10)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -894,7 +909,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(228,208,10)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -927,6 +942,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(180,196,36)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -955,7 +971,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.002</commonality>
+      <commonality>0.02</commonality>
       <color>(180,196,36)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -988,6 +1004,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Mineral</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(90,125,129)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -1016,7 +1033,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.003</commonality>
+      <commonality>0.03</commonality>
       <color>(90,125,129)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1049,6 +1066,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Crystal</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(66,27,148)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -1077,7 +1095,7 @@
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(66,27,148)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1110,6 +1128,7 @@
       <texPath>Things/Item/Resource/SLP_Gemstones_Mineral</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(21,25,27)</color>
+	  <drawSize>0.80</drawSize>
     </graphicData>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
@@ -1138,7 +1157,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
-      <commonality>0.0035</commonality>
+      <commonality>0.035</commonality>
       <color>(21,25,27)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
@@ -1170,6 +1189,7 @@
     <graphicData>
       <texPath>Things/Item/Resource/SLP_Gemstones_Pearl</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
+	  <drawSize>0.70</drawSize>
     </graphicData>
     <statBases>
       <MarketValue>5.5</MarketValue>
@@ -1184,12 +1204,12 @@
     </statBases>
     <burnableByRecipe>false</burnableByRecipe>
     <healthAffectsPrice>false</healthAffectsPrice>
-    <minRewardCount>30</minRewardCount>
+    <minRewardCount>50</minRewardCount>
     <stuffProps>
       <categories>
         <li>Stony</li>
       </categories>
-      <commonality>0.001</commonality>
+      <commonality>0.01</commonality>
       <color>(234,224,200)</color>
       <statOffsets>
         <Beauty>14</Beauty>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Gemstones -->
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableTungsten</defName>
+    <label>tungsten</label>
+    <description>Rock containing bits of tungsten.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(116,113,99)</color>
+      <colorTwo>(191,189,180)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Tungsten</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableTitanium</defName>
+    <label>titanium</label>
+    <description>Rock containing bits of titanium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(55,55,53)</color>
+      <colorTwo>(135,134,129)</colorTwo><!--Specks-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Titanium</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.04</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+ 
+</Defs>
