@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <RecipeDef>
+    <defName>SLPMake_TitaniumGold</defName>
+    <label>make titanium gold</label>
+    <description>Make titanium gold alloy by smelting gold and titanium together.</description>
+    <jobString>Making alloy (titanium gold).</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SLP_Titanium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_TitaniumGold>1</SLP_TitaniumGold>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SLP_Titanium</li>
+		<li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_TitaniumGrade5Alloy</defName>
+    <label>make grade v titanium</label>
+    <description>Make grade v titanium by smelting aluminium and titanium together.</description>
+    <jobString>Making alloy (grade v titanium).</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SLP_Titanium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SLP_Aluminium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_Grade5Titanium>1</SLP_Grade5Titanium>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SLP_Aluminium</li>
+		<li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_WhiteGold</defName>
+    <label>make palladium white gold</label>
+    <description>Make palladium white gold by smelting gold and palladium together.</description>
+    <jobString>Making alloy (palladium white gold).</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>1350</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SLP_Palladium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_WhiteGold>1</SLP_WhiteGold>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SLP_Palladium</li>
+		<li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_FRP</defName>
+    <label>make fiber-reinforced polymer</label>
+    <description>Make fiber-reinforced polymer from chemfuel and neutroamine.</description>
+    <jobString>Refining chemfuel from wood.</jobString>
+	<recipeUsers>
+        <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+		<li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <SLP_FiberReinforcedPolymer>1</SLP_FiberReinforcedPolymer>
+    </products>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_StainlessSteel</defName>
+    <label>make stainless steel</label>
+    <description>Make stainless steel by smelting steel and chromium together.</description>
+    <jobString>Making alloy (stainless steel).</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>800</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>SLP_Chromium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_StainlessSteel>2</SLP_StainlessSteel>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+		<li>SLP_Chromium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_Electrum</defName>
+    <label>make electrum</label>
+    <description>Make electrum by smelting gold and silver together.</description>
+    <jobString>Making alloy (electrum).</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>1000</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_Electrum>1</SLP_Electrum>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+		<li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_Aluminium</defName>
+    <label>make aluminium</label>
+    <description>Make aluminium by refining bauxite.</description>
+    <jobString>Making aluminium.</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>600</workAmount>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SLP_Bauxite</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_Aluminium>1</SLP_Aluminium>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SLP_Bauxite</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+</Defs>

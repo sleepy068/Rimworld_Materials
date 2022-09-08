@@ -47,5 +47,97 @@
       <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
     </building>
   </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineablePalladium</defName>
+    <label>palladium</label>
+    <description>Rock containing bits of palladium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(106,106,98)</color>
+      <colorTwo>(193,193,187)</colorTwo><!--Specks-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Palladium</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.02</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableChromium</defName>
+    <label>chromium</label>
+    <description>Rock containing bits of chromium.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(75,99,122)</color>
+      <colorTwo>(219,226,233)</colorTwo><!--Specks-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Chromium</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_Electrum</defName>
+    <label>electrum</label>
+    <description>Rock containing bits of electrum.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(121,113,61)</color>
+      <colorTwo>(242,226,121)</colorTwo><!--Specks-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Electrum</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.02</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>1~2</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="RockBase">
+    <defName>SLP_MineableBauxite</defName>
+    <label>bauxite</label>
+    <description>Rock containing bits of bauxite.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(102,50,38)</color>
+      <colorTwo>(185,89,70)</colorTwo><!--Specks-->
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>SLP_Bauxite</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.10</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>10~20</mineableScatterLumpSizeRange>
+    </building>
+  </ThingDef>
  
 </Defs>

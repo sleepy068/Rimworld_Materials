@@ -32,7 +32,7 @@
     </thingCategories>
     <deepCommonality>0.2</deepCommonality>
     <deepCountPerPortion>4</deepCountPerPortion>
-    <deepLumpSizeRange>1-6</deepLumpSizeRange>
+    <deepLumpSizeRange>1~6</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>
@@ -52,6 +52,9 @@
       <statFactors>
         <MaxHitPoints>4.0</MaxHitPoints>
         <Beauty>1</Beauty>
+		<WorkToMake>3.0</WorkToMake>
+        <WorkToBuild>2.2</WorkToBuild>
+		<DoorOpenSpeed>0.75</DoorOpenSpeed>
         <Flammability>0</Flammability>
       </statFactors>
       <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
@@ -74,7 +77,7 @@
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
       <MarketValue>4.8</MarketValue>
-      <Mass>1.0</Mass>
+      <Mass>0.5</Mass>
       <StuffPower_Armor_Sharp>1.0</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.50</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
@@ -90,7 +93,7 @@
     </thingCategories>
     <deepCommonality>0.2</deepCommonality>
     <deepCountPerPortion>4</deepCountPerPortion>
-    <deepLumpSizeRange>1-6</deepLumpSizeRange>
+    <deepLumpSizeRange>1~6</deepLumpSizeRange>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
     <stuffProps>
@@ -110,8 +113,11 @@
       <statFactors>
         <MaxHitPoints>2.1</MaxHitPoints>
         <Beauty>1</Beauty>
+		<WorkToMake>2.2</WorkToMake>
+        <WorkToBuild>2.2</WorkToBuild>
+		<DoorOpenSpeed>0.95</DoorOpenSpeed>
         <Flammability>0</Flammability>
-		<MeleeWeapon_CooldownMultiplier>0.8</MeleeWeapon_CooldownMultiplier>
+		<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
       <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>
@@ -119,5 +125,603 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_TitaniumGold</defName>
+    <label>titanium gold</label>
+    <description>A alloy consisting of titanium and gold. A very hard, shiny and very strong metal. One of the most common titanium alloys used due to its strength. Useful for building a huge variety of structures, weapons, and armour. Like most titanium alloys, the alloy is better than either of its constituent metals in all but beauty.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_MetalRod</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(206,180,129)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>12.5</MarketValue>
+      <Mass>0.4</Mass>
+      <StuffPower_Armor_Sharp>1.025</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.525</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.065</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.005</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(206,180,129)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <statOffsets>
+        <Beauty>10</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>2.1</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>2.0</WorkToMake>
+        <WorkToBuild>1.6</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Grade5Titanium</defName>
+    <label>grade v titanium</label>
+    <description>A alloy consisting of titanium, aluminium and other trace materials. A hard, shiny, strong metal and beautiful material. Useful for building a huge variety of decorations, structures, weapons, and armour. Like most titanium alloys, the alloy is better than either of its constituent metals.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_MetalRod</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(122,119,114)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>6.0</MarketValue>
+      <Mass>0.35</Mass>
+	  <StuffPower_Armor_Sharp>1.075</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.55</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.675</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.08</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(122,119,114)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>2.25</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>2.3</WorkToMake>
+        <WorkToBuild>2.3</WorkToBuild>
+		<DoorOpenSpeed>1.1</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>0.85</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Palladium</defName>
+    <label>palladium</label>
+    <description>A rare and lustrous silvery-white metal. It can be used for making decorations or making coveted alloys.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(193,193,187)</color>
+	  <drawSize>0.50</drawSize>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.008</Mass>
+      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <smallVolume>true</smallVolume>
+    <deepCommonality>0.1</deepCommonality>
+    <deepCountPerPortion>2</deepCountPerPortion>
+    <deepLumpSizeRange>1~2</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <color>(193,193,187)</color>
+      <commonality>0.001</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>32</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.60</MaxHitPoints>
+        <Beauty>2.5</Beauty>
+		<WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.00</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_WhiteGold</defName>
+    <label>palladium white gold</label>
+    <description>A lustrous and incredibly beautiful silvery-white metal with hints of gold. It can be used for making extremely luxurious decorations.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(249,243,209)</color>
+	  <drawSize>0.50</drawSize>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <statBases>
+      <MarketValue>22.5</MarketValue>
+      <Mass>0.008</Mass>
+      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <stackLimit>500</stackLimit>
+    <smallVolume>true</smallVolume>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <color>(249,243,209)</color>
+      <commonality>0.001</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+      <statOffsets>
+        <Beauty>48</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.60</MaxHitPoints>
+        <Beauty>2.5</Beauty>
+		<WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.00</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>25</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_FiberReinforcedPolymer</defName>
+    <label>fiber-reinforced polymer</label>
+    <description>Fibre-reinforced plastic is a composite material made of a polymer matrix reinforced with fibres. It is a very strong and highly useful building material that can be made out of precursor materials.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Sheet</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(40,40,40)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>6.8</MarketValue>
+      <Mass>0.1</Mass>
+	  <StuffPower_Armor_Sharp>0.95</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.30</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.80</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <appearance>Planks</appearance>
+      <commonality>0.005</commonality>
+      <color>(40,40,40)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>0.90</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>1.0</WorkToMake>
+        <WorkToBuild>1.0</WorkToBuild>
+		<DoorOpenSpeed>1.25</DoorOpenSpeed>
+        <Flammability>0.1</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.00</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Chromium</defName>
+    <label>chromium</label>
+    <description>A steely-grey, lustrous, hard, and brittle transition metal. Chromium metal is valued for its high corrosion resistance and hardness and useful in alloys but it is not great as a building material.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(219,226,233)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <Mass>0.4</Mass>
+      <StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.90</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.00</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>8</deepCountPerPortion>
+    <deepLumpSizeRange>4~10</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.0</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(219,226,233)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <statOffsets>
+        <Beauty>2</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.6</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>1.0</WorkToMake>
+        <WorkToBuild>1.0</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_StainlessSteel</defName>
+    <label>stainless steel</label>
+    <description>A alloy of iron that is resistant to rusting and corrosion which contains chromium. Useful for building a huge variety structures, weapons, and armour.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(196,197,208)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2.85</MarketValue>
+      <Mass>0.46</Mass>
+	  <StuffPower_Armor_Sharp>0.96</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(196,197,208)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <statOffsets>
+        <Beauty>1.5</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>1.2</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>1.0</WorkToMake>
+        <WorkToBuild>1.0</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase">
+    <defName>SLP_Electrum</defName>
+    <label>electrum</label>
+    <description>Electrum is a naturally occurring alloy of gold and silver. It is strikingly beautiful and makes for superior decorations.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(242,226,121)</color>
+	  <drawSize>0.50</drawSize>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>11</MarketValue>
+      <Mass>0.008</Mass>
+      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.80</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.00</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.1</deepCommonality>
+    <deepCountPerPortion>2</deepCountPerPortion>
+    <deepLumpSizeRange>1~2</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.0</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(242,226,121)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <statOffsets>
+        <Beauty>24</Beauty>
+      </statOffsets>
+      <statFactors>
+        <MaxHitPoints>0.65</MaxHitPoints>
+        <Beauty>3.25</Beauty>
+		<WorkToMake>0.9</WorkToMake>
+        <WorkToBuild>0.9</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Bauxite</defName>
+    <label>bauxite</label>
+    <description>Bauxite is a sedimentary rock that can be further processed into aluminium. Makes for a desperate construction material on its own.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_MineralOre</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(185,89,70)</color>
+	  <!--<drawSize>0.50</drawSize>-->
+    </graphicData>
+    <soundInteract>ChunkRock_Drop</soundInteract>
+    <soundDrop>ChunkRock_Drop</soundDrop>
+    <statBases>
+      <MarketValue>1</MarketValue>
+      <Mass>0.5</Mass>
+      <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.75</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.75</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0.5</deepCommonality>
+    <deepCountPerPortion>5</deepCountPerPortion>
+    <deepLumpSizeRange>5~15</deepLumpSizeRange>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Stony</li>
+      </categories>
+      <commonality>0.0</commonality>
+      <color>(185,89,70)</color>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statFactors>
+        <MaxHitPoints>0.60</MaxHitPoints>
+        <Beauty>1.0</Beauty>
+		<WorkToMake>1.0</WorkToMake>
+        <WorkToBuild>1.0</WorkToBuild>
+		<DoorOpenSpeed>1.0</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_Aluminium</defName>
+    <label>aluminium</label>
+    <description>A lightweight silvery white metal. Useful for building a variety structures, weapons, and armour.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_Sheet</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(208,213,219)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Metal_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2.2</MarketValue>
+      <Mass>0.15</Mass>
+	  <StuffPower_Armor_Sharp>0.90</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
+      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Metallic</li>
+      </categories>
+      <appearance>Metal</appearance>
+      <commonality>0.01</commonality>
+      <constructEffect>ConstructMetal</constructEffect>
+      <color>(208,213,219)</color>
+      <soundImpactStuff>BulletImpact_Metal</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>0.8</WorkToMake>
+        <WorkToBuild>1.0</WorkToBuild>
+		<DoorOpenSpeed>1.3</DoorOpenSpeed>
+        <Flammability>0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>0.70</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
   
 </Defs>
