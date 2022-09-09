@@ -724,4 +724,122 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_SoftPlywood</defName>
+    <label>soft plywood</label>
+    <description>Plywood is a material manufactured from thin layers or "plies" of wood veneer that are glued together. Stronger then basic wooden structures and very quick and easy to use in construction.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_GrainSheet</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(222,184,135)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MarketValue>2.4</MarketValue>
+      <Mass>0.425</Mass>
+	  <StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.60</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.475</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.30</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.70</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <appearance>Planks</appearance>
+      <commonality>0.25</commonality>
+      <color>(222,184,135)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>0.75</MaxHitPoints>
+        <Beauty>-1</Beauty>
+		<WorkToMake>1.0</WorkToMake>
+        <WorkToBuild>0.4</WorkToBuild>
+		<DoorOpenSpeed>1.2</DoorOpenSpeed>
+        <Flammability>1.0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.00</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>SLP_HardPlywood</defName>
+    <label>hard plywood</label>
+    <description>Plywood is a material manufactured from thin layers or "plies" of wood veneer that are glued together. Much stronger then basic wooden structures and quick and easy to use in construction.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/SLP_Alloys_GrainSheet</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+	  <color>(186,140,99)</color>
+	  <!--<drawSize>0.80</drawSize>-->
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Wood_Drop</soundDrop>
+    <statBases>
+      <MarketValue>4.8</MarketValue>
+      <Mass>0.45</Mass>
+	  <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.55</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.45</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.95</BluntDamageMultiplier>
+    </statBases>
+    <useHitPoints>false</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <thingCategories>
+      <li>SLP_Alloys</li>
+    </thingCategories>
+    <burnableByRecipe>false</burnableByRecipe>
+    <smeltable>true</smeltable>
+    <stuffProps>
+      <categories>
+        <li>Woody</li>
+      </categories>
+      <appearance>Planks</appearance>
+      <commonality>0.125</commonality>
+      <color>(186,140,99)</color>
+      <constructEffect>ConstructWood</constructEffect>
+      <soundImpactStuff>BulletImpact_Wood</soundImpactStuff>
+      <soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Wood</soundMeleeHitBlunt>
+	  <!--<statOffsets>
+        <Beauty>30</Beauty>
+      </statOffsets>-->
+      <statFactors>
+        <MaxHitPoints>0.90</MaxHitPoints>
+        <Beauty>1</Beauty>
+		<WorkToMake>1.0</WorkToMake>
+        <WorkToBuild>0.6</WorkToBuild>
+		<DoorOpenSpeed>1.1</DoorOpenSpeed>
+        <Flammability>1.0</Flammability>
+		<MeleeWeapon_CooldownMultiplier>1.00</MeleeWeapon_CooldownMultiplier>
+      </statFactors>
+      <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+    </stuffProps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+  
 </Defs>
