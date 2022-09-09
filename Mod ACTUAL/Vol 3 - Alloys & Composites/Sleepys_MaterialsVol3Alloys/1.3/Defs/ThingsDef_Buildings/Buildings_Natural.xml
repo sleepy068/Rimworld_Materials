@@ -95,7 +95,7 @@
   </ThingDef>
   
   <ThingDef ParentName="RockBase">
-    <defName>SLP_Electrum</defName>
+    <defName>SLP_MineableElectrum</defName>
     <label>electrum</label>
     <description>Rock containing bits of electrum.</description>
     <graphicData>
