@@ -737,7 +737,7 @@
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
     <statBases>
-      <MarketValue>2.4</MarketValue>
+      <MarketValue>2.2</MarketValue>
       <Mass>0.425</Mass>
 	  <StuffPower_Armor_Sharp>0.60</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.60</StuffPower_Armor_Blunt>
@@ -796,7 +796,7 @@
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
     <statBases>
-      <MarketValue>4.8</MarketValue>
+      <MarketValue>4.3</MarketValue>
       <Mass>0.45</Mass>
 	  <StuffPower_Armor_Sharp>0.75</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.75</StuffPower_Armor_Blunt>

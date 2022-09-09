@@ -279,4 +279,76 @@
     </fixedIngredientFilter>
   </RecipeDef>
   
+  <RecipeDef>
+    <defName>SLPMake_SoftPlywood</defName>
+    <label>make soft plywood</label>
+    <description>Make soft plywood from wood.</description>
+    <jobString>Making soft plywood.</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_SoftPlywood>1</SLP_SoftPlywood>
+    </products>
+	<skillRequirements>
+      <Crafting>3</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>SLPMake_HardPlywood</defName>
+    <label>make hard plywood</label>
+    <description>Make hard plywood from wood.</description>
+    <jobString>Making hard plywood.</jobString>
+	<recipeUsers>
+        <li>ElectricSmelter</li>
+    </recipeUsers>
+    <workAmount>600</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <products>
+      <SLP_HardPlywood>1</SLP_HardPlywood>
+    </products>
+	<skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  
 </Defs>
