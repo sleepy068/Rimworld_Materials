@@ -285,7 +285,7 @@
     <description>Make soft plywood from wood.</description>
     <jobString>Making soft plywood.</jobString>
 	<recipeUsers>
-        <li>ElectricSmelter</li>
+        <li>TableMachining</li>
     </recipeUsers>
     <workAmount>600</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -321,7 +321,7 @@
     <description>Make hard plywood from wood.</description>
     <jobString>Making hard plywood.</jobString>
 	<recipeUsers>
-        <li>ElectricSmelter</li>
+        <li>TableMachining</li>
     </recipeUsers>
     <workAmount>600</workAmount>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>

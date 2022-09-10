@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileBauxite</defName>
+    <label>bauxite tile</label>
+    <color>(185,89,70)</color>
+    <costList>
+      <SLP_Bauxite>4</SLP_Bauxite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneBauxite</defName>
+    <label>bauxite flagstone</label>
+    <color>(185,89,70)</color>
+    <costList>
+      <SLP_Bauxite>4</SLP_Bauxite>
+    </costList>
+  </TerrainDef>
+
+</Defs>

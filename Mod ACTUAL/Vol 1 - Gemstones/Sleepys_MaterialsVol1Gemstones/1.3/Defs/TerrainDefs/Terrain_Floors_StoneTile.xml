@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileDiamond</defName>
+    <label>diamond tile</label>
+    <color>(254,254,254)</color>
+    <costList>
+      <SLP_Diamond>4</SLP_Diamond>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneDiamond</defName>
+    <label>diamond flagstone</label>
+    <color>(254,254,254)</color>
+    <costList>
+      <SLP_Diamond>4</SLP_Diamond>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileEmerald</defName>
+    <label>emerald tile</label>
+    <color>(1,118,56)</color>
+    <costList>
+      <SLP_Emerald>4</SLP_Emerald>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneEmerald</defName>
+    <label>emerald flagstone</label>
+    <color>(1,118,56)</color>
+    <costList>
+      <SLP_Emerald>4</SLP_Emerald>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileSapphire</defName>
+    <label>sapphire tile</label>
+    <color>(6,32,73)</color>
+    <costList>
+      <SLP_Sapphire>4</SLP_Sapphire>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneSapphire</defName>
+    <label>sapphire flagstone</label>
+    <color>(6,32,73)</color>
+    <costList>
+      <SLP_Sapphire>4</SLP_Sapphire>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileSpinel</defName>
+    <label>spinel tile</label>
+    <color>(6,32,73)</color>
+    <costList>
+      <SLP_Spinel>4</SLP_Spinel>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneSpinel</defName>
+    <label>spinel flagstone</label>
+    <color>(6,32,73)</color>
+    <costList>
+      <SLP_Spinel>4</SLP_Spinel>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileTopaz</defName>
+    <label>topaz tile</label>
+    <color>(251,181,51)</color>
+    <costList>
+      <SLP_Topaz>4</SLP_Topaz>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneTopaz</defName>
+    <label>topaz flagstone</label>
+    <color>(251,181,51)</color>
+    <costList>
+      <SLP_Topaz>4</SLP_Topaz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileAlexandrite</defName>
+    <label>alexandrite tile</label>
+    <color>(81,22,81)</color>
+    <costList>
+      <SLP_Alexandrite>4</SLP_Alexandrite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneAlexandrite</defName>
+    <label>alexandrite flagstone</label>
+    <color>(81,22,81)</color>
+    <costList>
+      <SLP_Alexandrite>4</SLP_Alexandrite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TilePainite</defName>
+    <label>painite tile</label>
+    <color>(107,73,71)</color>
+    <costList>
+      <SLP_Painite>4</SLP_Painite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstonePainite</defName>
+    <label>painite flagstone</label>
+    <color>(107,73,71)</color>
+    <costList>
+      <SLP_Painite>4</SLP_Painite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileAquamarine</defName>
+    <label>aquamarine tile</label>
+    <color>(127,255,212)</color>
+    <costList>
+      <SLP_Aquamarine>4</SLP_Aquamarine>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneAquamarine</defName>
+    <label>aquamarine flagstone</label>
+    <color>(127,255,212)</color>
+    <costList>
+      <SLP_Aquamarine>4</SLP_Aquamarine>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileAmethyst</defName>
+    <label>amethyst tile</label>
+    <color>(153,102,204)</color>
+    <costList>
+      <SLP_Amethyst>4</SLP_Amethyst>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneAmethyst</defName>
+    <label>amethyst flagstone</label>
+    <color>(153,102,204)</color>
+    <costList>
+      <SLP_Amethyst>4</SLP_Amethyst>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileLapisLazuli</defName>
+    <label>lapis lazuli tile</label>
+    <color>(21,37,192)</color>
+    <costList>
+      <SLP_LapisLazuli>4</SLP_LapisLazuli>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneLapisLazuli</defName>
+    <label>lapis lazuli flagstone</label>
+    <color>(21,37,192)</color>
+    <costList>
+      <SLP_LapisLazuli>4</SLP_LapisLazuli>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileTurquoise</defName>
+    <label>turquoise tile</label>
+    <color>(48,213,200)</color>
+    <costList>
+      <SLP_Turquoise>4</SLP_Turquoise>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneTurquoise</defName>
+    <label>turquoise flagstone</label>
+    <color>(48,213,200)</color>
+    <costList>
+      <SLP_Turquoise>4</SLP_Turquoise>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileQuartz</defName>
+    <label>quartz tile</label>
+    <color>(223,223,224)</color>
+    <costList>
+      <SLP_Quartz>4</SLP_Quartz>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneQuartz</defName>
+    <label>quartz flagstone</label>
+    <color>(223,223,224)</color>
+    <costList>
+      <SLP_Quartz>4</SLP_Quartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileRoseQuartz</defName>
+    <label>rose quartz tile</label>
+    <color>(247,202,202)</color>
+    <costList>
+      <SLP_RoseQuartz>4</SLP_RoseQuartz>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneRoseQuartz</defName>
+    <label>rose quartz flagstone</label>
+    <color>(247,202,202)</color>
+    <costList>
+      <SLP_RoseQuartz>4</SLP_RoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileCitrine</defName>
+    <label>citrine tile</label>
+    <color>(228,208,10)</color>
+    <costList>
+      <SLP_Citrine>4</SLP_Citrine>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneCitrine</defName>
+    <label>citrine flagstone</label>
+    <color>(228,208,10)</color>
+    <costList>
+      <SLP_Citrine>4</SLP_Citrine>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TilePeridot</defName>
+    <label>peridot tile</label>
+    <color>(180,196,36)</color>
+    <costList>
+      <SLP_Peridot>4</SLP_Peridot>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstonePeridot</defName>
+    <label>peridot flagstone</label>
+    <color>(180,196,36)</color>
+    <costList>
+      <SLP_Peridot>4</SLP_Peridot>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileLabradorite</defName>
+    <label>labradorite tile</label>
+    <color>(90,125,129)</color>
+    <costList>
+      <SLP_Labradorite>4</SLP_Labradorite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneLabradorite</defName>
+    <label>labradorite flagstone</label>
+    <color>(90,125,129)</color>
+    <costList>
+      <SLP_Labradorite>4</SLP_Labradorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileTanzanite</defName>
+    <label>tanzanite tile</label>
+    <color>(66,27,148)</color>
+    <costList>
+      <SLP_Tanzanite>4</SLP_Tanzanite>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneTanzanite</defName>
+    <label>tanzanite flagstone</label>
+    <color>(66,27,148)</color>
+    <costList>
+      <SLP_Tanzanite>4</SLP_Tanzanite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileObsidian</defName>
+    <label>obsidian tile</label>
+    <color>(21,25,27)</color>
+    <costList>
+      <SLP_Obsidian>4</SLP_Obsidian>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneObsidian</defName>
+    <label>obsidian flagstone</label>
+    <color>(21,25,27)</color>
+    <costList>
+      <SLP_Obsidian>4</SLP_Obsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TilePearl</defName>
+    <label>pearl tile</label>
+    <color>(234,224,200)</color>
+    <costList>
+      <SLP_Pearl>4</SLP_Pearl>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstonePearl</defName>
+    <label>pearl flagstone</label>
+    <color>(234,224,200)</color>
+    <costList>
+      <SLP_Pearl>4</SLP_Pearl>
+    </costList>
+  </TerrainDef>
+</Defs>

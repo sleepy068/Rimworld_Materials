@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileDiamond</defName>
+    <label>fine diamond tile</label>
+    <color>(254,254,254)</color>
+    <costList>
+      <SLP_Diamond>20</SLP_Diamond>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileEmerald</defName>
+    <label>fine emerald tile</label>
+    <color>(1,118,56)</color>
+    <costList>
+      <SLP_Emerald>20</SLP_Emerald>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSapphire</defName>
+    <label>fine sapphire tile</label>
+   <color>(6,32,73)</color>
+    <costList>
+      <SLP_Sapphire>20</SLP_Sapphire>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileSpinel</defName>
+    <label>fine spinel tile</label>
+    <color>(176,11,52)</color>
+    <costList>
+      <SLP_Spinel>20</SLP_Spinel>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileTopaz</defName>
+    <label>fine topaz tile</label>
+    <color>(251,181,51)</color>
+    <costList>
+      <SLP_Topaz>20</SLP_Topaz>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileAlexandrite</defName>
+    <label>fine alexandrite tile</label>
+    <color>(81,22,81)</color>
+    <costList>
+      <SLP_Alexandrite>20</SLP_Alexandrite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTilePainite</defName>
+    <label>fine painite tile</label>
+    <color>(107,73,71)</color>
+    <costList>
+      <SLP_Painite>20</SLP_Painite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileAquamarine</defName>
+    <label>fine aquamarine tile</label>
+    <color>(127,255,212)</color>
+    <costList>
+      <SLP_Aquamarine>20</SLP_Aquamarine>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileAmethyst</defName>
+    <label>fine amethyst tile</label>
+    <color>(153,102,204)</color>
+    <costList>
+      <SLP_Amethyst>20</SLP_Amethyst>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLapisLazuli</defName>
+    <label>fine lapis lazuli tile</label>
+    <color>(21,37,192)</color>
+    <costList>
+      <SLP_LapisLazuli>20</SLP_LapisLazuli>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileTurquoise</defName>
+    <label>fine turquoise tile</label>
+    <color>(48,213,200)</color>
+    <costList>
+      <SLP_Turquoise>20</SLP_Turquoise>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileQuartz</defName>
+    <label>fine quartz tile</label>
+    <color>(223,223,224)</color>
+    <costList>
+      <SLP_Quartz>20</SLP_Quartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileRoseQuartz</defName>
+    <label>fine rose quartz tile</label>
+    <color>(247,202,202)</color>
+    <costList>
+      <SLP_RoseQuartz>20</SLP_RoseQuartz>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileCitrine</defName>
+    <label>fine citrine tile</label>
+    <color>(228,208,10)</color>
+    <costList>
+      <SLP_Citrine>20</SLP_Citrine>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTilePeridot</defName>
+    <label>fine peridot tile</label>
+    <color>(180,196,36)</color>
+    <costList>
+      <SLP_Peridot>20</SLP_Peridot>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileLabradorite</defName>
+    <label>fine labradorite tile</label>
+    <color>(90,125,129)</color>
+    <costList>
+      <SLP_Labradorite>20</SLP_Labradorite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileTanzanite</defName>
+    <label>fine tanzanite tile</label>
+    <color>(66,27,148)</color>
+    <costList>
+      <SLP_Tanzanite>20</SLP_Tanzanite>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileObsidian</defName>
+    <label>fine obsidian tile</label>
+    <color>(21,25,27)</color>
+    <costList>
+      <SLP_Obsidian>20</SLP_Obsidian>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTilePearl</defName>
+    <label>fine pearl tile</label>
+    <color>(234,224,200)</color>
+    <costList>
+      <SLP_Pearl>20</SLP_Pearl>
+    </costList>
+  </TerrainDef>
+  
+</Defs>

@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_TungstenTile</defName>
+    <label>tungsten tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Tungsten tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
+    <color>(191,189,180)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Tungsten>7</SLP_Tungsten>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_TitaniumTile</defName>
+    <label>titanium tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Titanium tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
+    <color>(135,134,129)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Titanium>7</SLP_Titanium>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_TitaniumGoldTile</defName>
+    <label>titanium gold tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Titanium Gold tiles, for that beautiful spaceship look. They are very pretty but not considered fine floors. The smooth tile surface gets a bonus to cleanliness.</description>
+    <color>(206,180,129)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>6</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_TitaniumGold>7</SLP_TitaniumGold>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_Grade5TitaniumTile</defName>
+    <label>grade v titanium tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Titanium tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
+    <color>(122,119,114)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Grade5Titanium>7</SLP_Grade5Titanium>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_PalladiumTile</defName>
+    <label>palladium tile</label>
+    <renderPrecedence>241</renderPrecedence>
+    <description>Exceptionally expensive, and exceptionally beautiful, palladium tiles will be the envy of your enemies. They get a bonus to cleanliness.</description>
+    <color>(193,193,187)</color>
+    <statBases>
+      <Beauty>18</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Palladium>70</SLP_Palladium>
+    </costList>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_PalladiumWGTile</defName>
+    <label>palladium white gold tile</label>
+    <renderPrecedence>241</renderPrecedence>
+    <description>Exceptionally expensive, and exceptionally beautiful, palladium white gold tiles will likely be the reason for your enemies attacks. They get a bonus to cleanliness.</description>
+    <color>(249,243,209)</color>
+    <statBases>
+      <Beauty>24</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_WhiteGold>70</SLP_WhiteGold>
+    </costList>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_ChromeTile</defName>
+    <label>chrome tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Chrome tiles made from chromium, for that spaceship look. They are quite pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
+    <color>(219,226,233)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>2</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Chromium>7</SLP_Chromium>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_StainlessSteelTile</defName>
+    <label>stainless steel tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Stainless steel tiles, for that spaceship look. They are pretty, and the smooth tile surface and corrosive resistive traits gets an extra bonus to cleanliness.</description>
+    <color>(196,197,208)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Cleanliness>0.3</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_StainlessSteel>7</SLP_StainlessSteel>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_ElectrumTile</defName>
+    <label>electrum tile</label>
+    <renderPrecedence>241</renderPrecedence>
+    <description>Very expensive, and very beautiful, electrum tiles will be the envy of your enemies. They get a bonus to cleanliness.</description>
+    <color>(242,226,121)</color>
+    <statBases>
+      <Beauty>14</Beauty>
+      <WorkToBuild>800</WorkToBuild>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Electrum>70</SLP_Electrum>
+    </costList>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileMetalBase">
+    <defName>SLP_AluminiumTile</defName>
+    <label>aluminium tile</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Titanium tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
+    <color>(208,213,219)</color>
+    <statBases>
+      <WorkToBuild>800</WorkToBuild>
+      <Beauty>1</Beauty>
+      <Cleanliness>0.2</Cleanliness>
+    </statBases>
+    <costList>
+      <SLP_Aluminium>7</SLP_Aluminium>
+    </costList>
+  </TerrainDef>
+  
+</Defs>

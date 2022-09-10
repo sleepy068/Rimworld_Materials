@@ -251,7 +251,7 @@
       <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(193,193,187)</color>
-	  <drawSize>0.50</drawSize>
+	  <drawSize>0.60</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
@@ -770,7 +770,7 @@
       </statOffsets>-->
       <statFactors>
         <MaxHitPoints>0.75</MaxHitPoints>
-        <Beauty>-1</Beauty>
+        <Beauty>1</Beauty>
 		<WorkToMake>1.0</WorkToMake>
         <WorkToBuild>0.4</WorkToBuild>
 		<DoorOpenSpeed>1.2</DoorOpenSpeed>
