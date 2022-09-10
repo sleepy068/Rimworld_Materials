@@ -52,8 +52,8 @@
       <statFactors>
         <MaxHitPoints>4.0</MaxHitPoints>
         <Beauty>1</Beauty>
-		<WorkToMake>3.0</WorkToMake>
-        <WorkToBuild>2.2</WorkToBuild>
+		<WorkToMake>4.0</WorkToMake>
+        <WorkToBuild>4.5</WorkToBuild>
 		<DoorOpenSpeed>0.75</DoorOpenSpeed>
         <Flammability>0</Flammability>
       </statFactors>
