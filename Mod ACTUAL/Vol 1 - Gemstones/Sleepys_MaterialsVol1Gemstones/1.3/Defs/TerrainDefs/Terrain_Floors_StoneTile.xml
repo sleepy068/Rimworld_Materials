@@ -4,6 +4,9 @@
     <defName>SLP_TileDiamond</defName>
     <label>diamond tile</label>
     <color>(254,254,254)</color>
+	<statBases>
+      <Beauty>9</Beauty>
+    </statBases>
     <costList>
       <SLP_Diamond>4</SLP_Diamond>
     </costList>
@@ -13,8 +16,35 @@
     <defName>SLP_FlagstoneDiamond</defName>
     <label>diamond flagstone</label>
     <color>(254,254,254)</color>
+	<statBases>
+      <Beauty>4</Beauty>
+    </statBases>
     <costList>
       <SLP_Diamond>4</SLP_Diamond>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="TileStoneBase">
+    <defName>SLP_TileRuby</defName>
+    <label>ruby tile</label>
+    <color>(155,17,30)</color>
+	<statBases>
+      <Beauty>5</Beauty>
+    </statBases>
+    <costList>
+      <SLP_Ruby>4</SLP_Ruby>
+    </costList>
+  </TerrainDef>
+
+  <TerrainDef ParentName="FlagstoneBase">
+    <defName>SLP_FlagstoneRuby</defName>
+    <label>ruby flagstone</label>
+    <color>(155,17,30)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
+    <costList>
+      <SLP_Ruby>4</SLP_Ruby>
     </costList>
   </TerrainDef>
   
@@ -22,6 +52,9 @@
     <defName>SLP_TileEmerald</defName>
     <label>emerald tile</label>
     <color>(1,118,56)</color>
+	<statBases>
+      <Beauty>5</Beauty>
+    </statBases>
     <costList>
       <SLP_Emerald>4</SLP_Emerald>
     </costList>
@@ -31,6 +64,9 @@
     <defName>SLP_FlagstoneEmerald</defName>
     <label>emerald flagstone</label>
     <color>(1,118,56)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Emerald>4</SLP_Emerald>
     </costList>
@@ -40,6 +76,9 @@
     <defName>SLP_TileSapphire</defName>
     <label>sapphire tile</label>
     <color>(6,32,73)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Sapphire>4</SLP_Sapphire>
     </costList>
@@ -58,6 +97,9 @@
     <defName>SLP_TileSpinel</defName>
     <label>spinel tile</label>
     <color>(6,32,73)</color>
+	<statBases>
+      <Beauty>4</Beauty>
+    </statBases>
     <costList>
       <SLP_Spinel>4</SLP_Spinel>
     </costList>
@@ -67,6 +109,9 @@
     <defName>SLP_FlagstoneSpinel</defName>
     <label>spinel flagstone</label>
     <color>(6,32,73)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Spinel>4</SLP_Spinel>
     </costList>
@@ -94,6 +139,9 @@
     <defName>SLP_TileAlexandrite</defName>
     <label>alexandrite tile</label>
     <color>(81,22,81)</color>
+	<statBases>
+      <Beauty>10</Beauty>
+    </statBases>
     <costList>
       <SLP_Alexandrite>4</SLP_Alexandrite>
     </costList>
@@ -103,6 +151,9 @@
     <defName>SLP_FlagstoneAlexandrite</defName>
     <label>alexandrite flagstone</label>
     <color>(81,22,81)</color>
+	<statBases>
+      <Beauty>5</Beauty>
+    </statBases>
     <costList>
       <SLP_Alexandrite>4</SLP_Alexandrite>
     </costList>
@@ -112,6 +163,9 @@
     <defName>SLP_TilePainite</defName>
     <label>painite tile</label>
     <color>(107,73,71)</color>
+	<statBases>
+      <Beauty>12</Beauty>
+    </statBases>
     <costList>
       <SLP_Painite>4</SLP_Painite>
     </costList>
@@ -121,6 +175,9 @@
     <defName>SLP_FlagstonePainite</defName>
     <label>painite flagstone</label>
     <color>(107,73,71)</color>
+	<statBases>
+      <Beauty>6</Beauty>
+    </statBases>
     <costList>
       <SLP_Painite>4</SLP_Painite>
     </costList>
@@ -130,6 +187,9 @@
     <defName>SLP_TileAquamarine</defName>
     <label>aquamarine tile</label>
     <color>(127,255,212)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Aquamarine>4</SLP_Aquamarine>
     </costList>
@@ -238,6 +298,9 @@
     <defName>SLP_TileCitrine</defName>
     <label>citrine tile</label>
     <color>(228,208,10)</color>
+	<statBases>
+      <Beauty>3</Beauty>
+    </statBases>
     <costList>
       <SLP_Citrine>4</SLP_Citrine>
     </costList>
@@ -256,6 +319,9 @@
     <defName>SLP_TilePeridot</defName>
     <label>peridot tile</label>
     <color>(180,196,36)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Peridot>4</SLP_Peridot>
     </costList>
@@ -292,6 +358,9 @@
     <defName>SLP_TileTanzanite</defName>
     <label>tanzanite tile</label>
     <color>(66,27,148)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Tanzanite>4</SLP_Tanzanite>
     </costList>
@@ -328,6 +397,9 @@
     <defName>SLP_TilePearl</defName>
     <label>pearl tile</label>
     <color>(234,224,200)</color>
+	<statBases>
+      <Beauty>4</Beauty>
+    </statBases>
     <costList>
       <SLP_Pearl>4</SLP_Pearl>
     </costList>
@@ -337,6 +409,9 @@
     <defName>SLP_FlagstonePearl</defName>
     <label>pearl flagstone</label>
     <color>(234,224,200)</color>
+	<statBases>
+      <Beauty>2</Beauty>
+    </statBases>
     <costList>
       <SLP_Pearl>4</SLP_Pearl>
     </costList>

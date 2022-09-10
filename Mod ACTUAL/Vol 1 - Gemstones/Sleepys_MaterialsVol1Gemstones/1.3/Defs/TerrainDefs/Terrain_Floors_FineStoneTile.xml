@@ -5,8 +5,23 @@
     <defName>FineTileDiamond</defName>
     <label>fine diamond tile</label>
     <color>(254,254,254)</color>
+	<statBases>
+      <Beauty>18</Beauty>
+    </statBases>
     <costList>
       <SLP_Diamond>20</SLP_Diamond>
+    </costList>
+  </TerrainDef>
+  
+  <TerrainDef ParentName="FineTileStoneBase">
+    <defName>FineTileRuby</defName>
+    <label>fine ruby tile</label>
+    <color>(1,118,56)</color>
+	<statBases>
+      <Beauty>11</Beauty>
+    </statBases>
+    <costList>
+      <SLP_Ruby>20</SLP_Ruby>
     </costList>
   </TerrainDef>
 
@@ -14,6 +29,9 @@
     <defName>FineTileEmerald</defName>
     <label>fine emerald tile</label>
     <color>(1,118,56)</color>
+	<statBases>
+      <Beauty>8</Beauty>
+    </statBases>
     <costList>
       <SLP_Emerald>20</SLP_Emerald>
     </costList>
@@ -23,6 +41,9 @@
     <defName>FineTileSapphire</defName>
     <label>fine sapphire tile</label>
    <color>(6,32,73)</color>
+   <statBases>
+      <Beauty>4</Beauty>
+    </statBases>
     <costList>
       <SLP_Sapphire>20</SLP_Sapphire>
     </costList>
@@ -32,6 +53,9 @@
     <defName>FineTileSpinel</defName>
     <label>fine spinel tile</label>
     <color>(176,11,52)</color>
+	<statBases>
+      <Beauty>9</Beauty>
+    </statBases>
     <costList>
       <SLP_Spinel>20</SLP_Spinel>
     </costList>
@@ -41,6 +65,9 @@
     <defName>FineTileTopaz</defName>
     <label>fine topaz tile</label>
     <color>(251,181,51)</color>
+	<statBases>
+      <Beauty>3</Beauty>
+    </statBases>
     <costList>
       <SLP_Topaz>20</SLP_Topaz>
     </costList>
@@ -50,6 +77,9 @@
     <defName>FineTileAlexandrite</defName>
     <label>fine alexandrite tile</label>
     <color>(81,22,81)</color>
+	<statBases>
+      <Beauty>21</Beauty>
+    </statBases>
     <costList>
       <SLP_Alexandrite>20</SLP_Alexandrite>
     </costList>
@@ -59,6 +89,9 @@
     <defName>FineTilePainite</defName>
     <label>fine painite tile</label>
     <color>(107,73,71)</color>
+	<statBases>
+      <Beauty>25</Beauty>
+    </statBases>
     <costList>
       <SLP_Painite>20</SLP_Painite>
     </costList>
@@ -68,6 +101,9 @@
     <defName>FineTileAquamarine</defName>
     <label>fine aquamarine tile</label>
     <color>(127,255,212)</color>
+	<statBases>
+      <Beauty>5</Beauty>
+    </statBases>
     <costList>
       <SLP_Aquamarine>20</SLP_Aquamarine>
     </costList>
@@ -77,6 +113,9 @@
     <defName>FineTileAmethyst</defName>
     <label>fine amethyst tile</label>
     <color>(153,102,204)</color>
+	<statBases>
+      <Beauty>3</Beauty>
+    </statBases>
     <costList>
       <SLP_Amethyst>20</SLP_Amethyst>
     </costList>
@@ -86,6 +125,9 @@
     <defName>FineTileLapisLazuli</defName>
     <label>fine lapis lazuli tile</label>
     <color>(21,37,192)</color>
+	<statBases>
+      <Beauty>3</Beauty>
+    </statBases>
     <costList>
       <SLP_LapisLazuli>20</SLP_LapisLazuli>
     </costList>
@@ -122,6 +164,9 @@
     <defName>FineTileCitrine</defName>
     <label>fine citrine tile</label>
     <color>(228,208,10)</color>
+	<statBases>
+      <Beauty>7</Beauty>
+    </statBases>
     <costList>
       <SLP_Citrine>20</SLP_Citrine>
     </costList>
@@ -131,6 +176,9 @@
     <defName>FineTilePeridot</defName>
     <label>fine peridot tile</label>
     <color>(180,196,36)</color>
+	<statBases>
+      <Beauty>4</Beauty>
+    </statBases>
     <costList>
       <SLP_Peridot>20</SLP_Peridot>
     </costList>
@@ -140,6 +188,9 @@
     <defName>FineTileLabradorite</defName>
     <label>fine labradorite tile</label>
     <color>(90,125,129)</color>
+	<statBases>
+      <Beauty>3</Beauty>
+    </statBases>
     <costList>
       <SLP_Labradorite>20</SLP_Labradorite>
     </costList>
@@ -149,6 +200,9 @@
     <defName>FineTileTanzanite</defName>
     <label>fine tanzanite tile</label>
     <color>(66,27,148)</color>
+	<statBases>
+      <Beauty>4</Beauty>
+    </statBases>
     <costList>
       <SLP_Tanzanite>20</SLP_Tanzanite>
     </costList>
@@ -167,6 +221,9 @@
     <defName>FineTilePearl</defName>
     <label>fine pearl tile</label>
     <color>(234,224,200)</color>
+	<statBases>
+      <Beauty>8</Beauty>
+    </statBases>
     <costList>
       <SLP_Pearl>20</SLP_Pearl>
     </costList>

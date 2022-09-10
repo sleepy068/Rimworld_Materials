@@ -315,7 +315,7 @@
       <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
 	  <color>(249,243,209)</color>
-	  <drawSize>0.50</drawSize>
+	  <drawSize>0.60</drawSize>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
