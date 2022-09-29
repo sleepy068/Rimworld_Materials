@@ -28,7 +28,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>0.1</count>
       </li>
     </ingredients>
     <products>
@@ -102,7 +102,7 @@
             <li>SLP_Palladium</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>0.1</count>
       </li>
 	  <li>
         <filter>
@@ -110,7 +110,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>0.1</count>
       </li>
     </ingredients>
     <products>
@@ -167,7 +167,7 @@
   
   <RecipeDef>
     <defName>SLPMake_StainlessSteel</defName>
-    <label>make stainless steel</label>
+    <label>make stainless steel (x2)</label>
     <description>Make stainless steel by smelting steel and chromium together.</description>
     <jobString>Making alloy (stainless steel).</jobString>
 	<recipeUsers>
@@ -225,7 +225,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>0.1</count>
       </li>
 	  <li>
         <filter>
@@ -233,7 +233,7 @@
             <li>Silver</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>0.1</count>
       </li>
     </ingredients>
     <products>

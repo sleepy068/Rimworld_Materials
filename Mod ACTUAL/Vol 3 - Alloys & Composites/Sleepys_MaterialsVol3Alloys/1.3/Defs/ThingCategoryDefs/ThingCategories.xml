@@ -8,5 +8,13 @@
       <iconPath>UI/Icons/ThingsCategories/SLP_Alloys_Icon</iconPath>
       <resourceReadoutRoot>true</resourceReadoutRoot>
     </ThingCategoryDef>
+	
+	<ThingCategoryDef>
+      <defName>SLP_Composites</defName>
+      <label>composites</label>
+      <parent>ResourcesRaw</parent>
+      <iconPath>UI/Icons/ThingsCategories/SLP_Composites_Icon</iconPath>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+    </ThingCategoryDef>
 
 </Defs>

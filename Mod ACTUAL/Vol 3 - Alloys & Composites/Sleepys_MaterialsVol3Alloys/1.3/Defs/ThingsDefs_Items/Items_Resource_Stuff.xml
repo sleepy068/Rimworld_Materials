@@ -145,7 +145,7 @@
       <StuffPower_Armor_Heat>0.65</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>1.065</SharpDamageMultiplier>
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
     </statBases>
     <useHitPoints>false</useHitPoints>
@@ -204,7 +204,7 @@
       <StuffPower_Armor_Heat>0.675</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-      <SharpDamageMultiplier>1.08</SharpDamageMultiplier>
+      <SharpDamageMultiplier>1.05</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
     </statBases>
     <useHitPoints>false</useHitPoints>
@@ -229,7 +229,7 @@
         <Beauty>30</Beauty>
       </statOffsets>-->
       <statFactors>
-        <MaxHitPoints>2.25</MaxHitPoints>
+        <MaxHitPoints>2.40</MaxHitPoints>
         <Beauty>1</Beauty>
 		<WorkToMake>2.3</WorkToMake>
         <WorkToBuild>2.3</WorkToBuild>
@@ -394,7 +394,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <thingCategories>
-      <li>SLP_Alloys</li>
+      <li>SLP_Composites</li>
     </thingCategories>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
@@ -573,7 +573,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <thingCategories>
-      <li>ResourcesRaw</li>
+      <li>SLP_Alloys</li>
     </thingCategories>
     <deepCommonality>0.1</deepCommonality>
     <deepCountPerPortion>2</deepCountPerPortion>
@@ -653,7 +653,7 @@
       <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
       <statFactors>
         <MaxHitPoints>0.60</MaxHitPoints>
-        <Beauty>1.0</Beauty>
+        <Beauty>1</Beauty>
 		<WorkToMake>1.0</WorkToMake>
         <WorkToBuild>1.0</WorkToBuild>
 		<DoorOpenSpeed>1.0</DoorOpenSpeed>
@@ -691,7 +691,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <thingCategories>
-      <li>SLP_Alloys</li>
+      <li>ResourcesRaw</li>
     </thingCategories>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
@@ -750,7 +750,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <thingCategories>
-      <li>SLP_Alloys</li>
+      <li>SLP_Composites</li>
     </thingCategories>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
@@ -809,7 +809,7 @@
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
     <thingCategories>
-      <li>SLP_Alloys</li>
+      <li>SLP_Composites</li>
     </thingCategories>
     <burnableByRecipe>false</burnableByRecipe>
     <smeltable>true</smeltable>
