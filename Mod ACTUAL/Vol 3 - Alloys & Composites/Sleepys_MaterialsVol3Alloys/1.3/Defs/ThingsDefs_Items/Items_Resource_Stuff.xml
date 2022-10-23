@@ -257,7 +257,7 @@
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
-    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>15</MarketValue>
       <Mass>0.008</Mass>
@@ -321,7 +321,7 @@
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
-    <resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+    <resourceReadoutAlwaysShow>false</resourceReadoutAlwaysShow>
     <statBases>
       <MarketValue>22.5</MarketValue>
       <Mass>0.008</Mass>
