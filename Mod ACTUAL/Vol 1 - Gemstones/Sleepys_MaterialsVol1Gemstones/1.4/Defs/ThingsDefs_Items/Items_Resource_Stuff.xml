@@ -3,6 +3,7 @@
 
   <!--=============== Gemstones ====================-->
 
+  <!-- Diamond -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Diamond</defName>
     <label>diamond</label>
@@ -65,6 +66,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Ruby -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Ruby</defName>
     <label>ruby</label>
@@ -127,6 +129,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
 
+  <!-- Emerald -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Emerald</defName>
     <label>emerald</label>
@@ -189,6 +192,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Sapphire -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Sapphire</defName>
     <label>sapphire</label>
@@ -239,7 +243,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>2.0</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -251,7 +255,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
-  
+  <!-- Spinel -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Spinel</defName>
     <label>spinel</label>
@@ -314,6 +318,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Topaz -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Topaz</defName>
     <label>topaz</label>
@@ -364,7 +369,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.25</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -376,6 +381,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Alexandrite -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Alexandrite</defName>
     <label>alexandrite</label>
@@ -426,7 +432,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>2.80</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -438,6 +444,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Painite -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Painite</defName>
     <label>painite</label>
@@ -488,7 +495,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>3.0</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -500,6 +507,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Aquamarine -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Aquamarine</defName>
     <label>aquamarine</label>
@@ -550,7 +558,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>2.1</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -562,6 +570,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Amethyst -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Amethyst</defName>
     <label>amethyst</label>
@@ -612,7 +621,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.0</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -624,6 +633,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
 
+  <!-- Lapis -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_LapisLazuli</defName>
     <label>lapis lazuli</label>
@@ -674,7 +684,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.15</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -686,6 +696,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Turquoise -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Turquoise</defName>
     <label>turquoise</label>
@@ -736,7 +747,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.0</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -748,6 +759,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Quartz -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Quartz</defName>
     <label>quartz</label>
@@ -798,7 +810,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.0</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -810,6 +822,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Rose Quartz -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_RoseQuartz</defName>
     <label>rose quartz</label>
@@ -860,7 +873,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.0</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -872,6 +885,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Citrine -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Citrine</defName>
     <label>citrine</label>
@@ -934,6 +948,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Peridot -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Peridot</defName>
     <label>peridot</label>
@@ -984,7 +999,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.8</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -996,6 +1011,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Labradorite -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Labradorite</defName>
     <label>labradorite</label>
@@ -1046,7 +1062,7 @@
         <MaxHitPoints>0.6</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
-        <Beauty>2.5</Beauty>
+        <Beauty>1.35</Beauty>
         <Flammability>0</Flammability>
         <MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
       </statFactors>
@@ -1058,6 +1074,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Tanzanite -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Tanzanite</defName>
     <label>tanzanite</label>
@@ -1120,6 +1137,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
 
+  <!-- Obsidian -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Obsidian</defName>
     <label>obsidian</label>
@@ -1142,7 +1160,7 @@
       <StuffPower_Armor_Heat>0.60</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
-	  <SharpDamageMultiplier>1.40</SharpDamageMultiplier>
+	  <SharpDamageMultiplier>1.30</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
     </statBases>
     <thingCategories>
@@ -1167,7 +1185,7 @@
         <Beauty>1.9</Beauty>
       </statOffsets>
       <statFactors>
-        <MaxHitPoints>0.9</MaxHitPoints>
+        <MaxHitPoints>0.85</MaxHitPoints>
         <WorkToMake>1.4</WorkToMake>
         <WorkToBuild>5.0</WorkToBuild>
         <Beauty>1</Beauty>
@@ -1182,6 +1200,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Pearl -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Pearl</defName>
     <label>pearl</label>
@@ -1229,6 +1248,7 @@
     <tradeTags>
       <li>ExoticMisc</li>
     </tradeTags>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>

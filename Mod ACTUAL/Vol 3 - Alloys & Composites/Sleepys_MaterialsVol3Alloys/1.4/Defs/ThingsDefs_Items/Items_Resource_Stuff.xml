@@ -54,7 +54,7 @@
         <Beauty>1</Beauty>
 		<WorkToMake>4.0</WorkToMake>
         <WorkToBuild>4.5</WorkToBuild>
-		<DoorOpenSpeed>0.75</DoorOpenSpeed>
+		<DoorOpenSpeed>0.60</DoorOpenSpeed>
         <Flammability>0</Flammability>
       </statFactors>
       <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
@@ -186,7 +186,7 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Grade5Titanium</defName>
-    <label>grade v titanium</label>
+    <label>high grade titanium</label>
     <description>A alloy consisting of titanium, aluminium and other trace materials. A hard, shiny, strong metal and beautiful material. Useful for building a huge variety of decorations, structures, weapons, and armour. Like most titanium alloys, the alloy is better than either of its constituent metals.</description>
     <graphicData>
       <texPath>Things/Item/Resource/SLP_Alloys_MetalRod</texPath>
@@ -430,7 +430,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Chromium</defName>
     <label>chromium</label>
-    <description>A steely-grey, lustrous, hard, and brittle transition metal. Chromium metal is valued for its high corrosion resistance and hardness and useful in alloys but it is not great as a building material.</description>
+    <description>A steely-grey, lustrous, hard, and brittle transition metal. Chromium metal is valued for its high corrosion resistance and hardness and is useful in a number of alloys but it is not great as a building material on its own.</description>
     <graphicData>
       <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -491,7 +491,7 @@
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_StainlessSteel</defName>
     <label>stainless steel</label>
-    <description>A alloy of iron that is resistant to rusting and corrosion which contains chromium. Useful for building a huge variety structures, weapons, and armour.</description>
+    <description>A alloy of iron that is resistant to rusting and corrosion due to the combination with chromium. Useful for building a huge variety structures, weapons, and armour.</description>
     <graphicData>
       <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

@@ -51,7 +51,7 @@
   
   <TerrainDef ParentName="TileMetalBase">
     <defName>SLP_Grade5TitaniumTile</defName>
-    <label>grade v titanium tile</label>
+    <label>high grade titanium tile</label>
     <renderPrecedence>240</renderPrecedence>
     <description>Titanium tiles, for that spaceship look. They are pretty, and the smooth tile surface gets a bonus to cleanliness.</description>
     <color>(122,119,114)</color>

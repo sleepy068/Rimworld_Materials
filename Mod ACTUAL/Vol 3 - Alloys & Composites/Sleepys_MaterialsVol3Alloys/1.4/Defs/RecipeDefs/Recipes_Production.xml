@@ -44,9 +44,9 @@
   
   <RecipeDef>
     <defName>SLPMake_TitaniumGrade5Alloy</defName>
-    <label>make grade v titanium</label>
-    <description>Make grade v titanium by smelting aluminium and titanium together.</description>
-    <jobString>Making alloy (grade v titanium).</jobString>
+    <label>make high grade titanium</label>
+    <description>Make high grade titanium by smelting aluminium and titanium together.</description>
+    <jobString>Making alloy (high grade titanium).</jobString>
 	<recipeUsers>
         <li>ElectricSmelter</li>
     </recipeUsers>
