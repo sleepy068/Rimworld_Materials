@@ -2,6 +2,7 @@
 <Defs>
 
   <!--=============== Raw Resources ====================-->
+  <!-- Tungsten -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Tungsten</defName>
     <label>tungsten</label>
@@ -63,6 +64,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Titanium -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Titanium</defName>
     <label>titanium</label>
@@ -125,6 +127,7 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Titanium Gold -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_TitaniumGold</defName>
     <label>titanium gold</label>
@@ -184,6 +187,7 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
 
+  <!-- High Grade Titanium -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Grade5Titanium</defName>
     <label>high grade titanium</label>
@@ -243,6 +247,7 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Palladium -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Palladium</defName>
     <label>palladium</label>
@@ -307,6 +312,7 @@
     <allowedArchonexusCount>100</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- White Gold -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_WhiteGold</defName>
     <label>palladium white gold</label>
@@ -368,6 +374,7 @@
     <allowedArchonexusCount>25</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- FRP -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_FiberReinforcedPolymer</defName>
     <label>fiber-reinforced polymer</label>
@@ -427,6 +434,7 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Chromium -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Chromium</defName>
     <label>chromium</label>
@@ -440,7 +448,7 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>1.9</MarketValue>
+      <MarketValue>2.05</MarketValue>
       <Mass>0.4</Mass>
       <StuffPower_Armor_Sharp>0.85</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
@@ -488,6 +496,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Stainless Steel -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_StainlessSteel</defName>
     <label>stainless steel</label>
@@ -501,8 +510,8 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>2.85</MarketValue>
-      <Mass>0.46</Mass>
+      <MarketValue>2.90</MarketValue>
+      <Mass>0.50</Mass>
 	  <StuffPower_Armor_Sharp>0.96</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.48</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
@@ -547,10 +556,11 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
 	</ThingDef>
 	
-	<ThingDef ParentName="ResourceBase">
+  <!-- Electrum -->
+  <ThingDef ParentName="ResourceBase">
     <defName>SLP_Electrum</defName>
     <label>electrum</label>
-    <description>Electrum is a naturally occurring alloy of gold and silver. It is strikingly beautiful and makes for superior decorations.</description>
+    <description>Electrum is a naturally occurring alloy of gold and silver. It is strikingly beautiful and makes for superior decorations but it is less impressive than pure gold.</description>
     <graphicData>
       <texPath>Things/Item/Resource/SLP_Alloys_Ingot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -560,7 +570,7 @@
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Metal_Drop</soundDrop>
     <statBases>
-      <MarketValue>11</MarketValue>
+      <MarketValue>8</MarketValue>
       <Mass>0.008</Mass>
       <StuffPower_Armor_Sharp>0.72</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.36</StuffPower_Armor_Blunt>
@@ -592,7 +602,7 @@
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
       <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 	  <statOffsets>
-        <Beauty>24</Beauty>
+        <Beauty>17</Beauty>
       </statOffsets>
       <statFactors>
         <MaxHitPoints>0.65</MaxHitPoints>
@@ -608,6 +618,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Bauxite -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Bauxite</defName>
     <label>bauxite</label>
@@ -665,6 +676,7 @@
     <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Aluminium -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_Aluminium</defName>
     <label>aluminium</label>
@@ -724,6 +736,7 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Soft Plywood -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_SoftPlywood</defName>
     <label>soft plywood</label>
@@ -783,6 +796,7 @@
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
   
+  <!-- Hard Plywood -->
   <ThingDef ParentName="ResourceBase">
     <defName>SLP_HardPlywood</defName>
     <label>hard plywood</label>
@@ -841,5 +855,21 @@
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
+  
+  <!-- Moissanite -->
+  
+  <!-- Silicon Carbide -->
+  
+  <!-- Baddeleyite -->
+  
+  <!-- Zirconia Ceramic -->
+  
+  <!-- Alumina  -->
+  
+  <!-- Kaolinite Clay  -->
+  
+  <!-- Porcelain  -->
+  
+  <!-- Clay -->
   
 </Defs>
